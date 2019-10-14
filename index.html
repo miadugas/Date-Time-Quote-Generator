@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body onload="startTime(); startDate()">
+        <div class="container">
+        <div class="greeting"></div>
+        <div id="date"></div>
+        <div id="display"></div>
+        <div id="content">
+            <p id="quote"> "I know that if the universe is meaningless... that's a joke at our expense. If it's meaningful... a different joke. Any meaning we make ourselves... that's us pretending we're in on it."
+                <br/>-The Joker </p>
+        </div>
+        </div>
+        <div id="b-nav">
+        <ul>
+            <br>
+            <button id="gen" onclick=" genQuote()">New Quote</button>
+        </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
